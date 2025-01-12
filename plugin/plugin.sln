@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface.csproj", "{D3C9C4E9-B3BB-4161-9FC5-8FEC069F541E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametersLogic", "..\logic\ParametersLogic.csproj", "{7D428B07-0771-4C15-9A3E-92338076DA7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5CEC017-8BE1-4703-856B-8529B6FB0F19} = {C5CEC017-8BE1-4703-856B-8529B6FB0F19}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLogic", "..\api_logic\ApiLogic.csproj", "{C5CEC017-8BE1-4703-856B-8529B6FB0F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametersLogicTests", "..\Tests\ParametersLogicTests.csproj", "{02C10FE4-8D83-4EDF-A94A-A211D5AB5392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasWrapperLib", "..\KompasApiLogic\KompasWrapperLib.csproj", "{A13A104F-A194-4BEF-B35C-C4BCBA69C813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorWrapperLib", "..\InventorWrapper\InventorWrapperLib.csproj", "{86FD0B69-88BC-481C-A05D-5D16DE455E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrapperLib", "..\Wrapper\WrapperLib.csproj", "{7C433024-DD81-479B-8694-6B946FA0E0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasWrapperTests", "..\KompasWrapperTests\KompasWrapperTests.csproj", "{7379DF83-09A3-46AF-B17E-3FDAC6ABF566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorWrapperTests", "..\InventorWrapperTests\InventorWrapperTests.csproj", "{C03D1DF0-961A-4FE7-A175-304B4C02D182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{28AB09EA-D159-45C2-ABA3-B48632A6A155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompasStressTest", "..\KompasStressTest\KompasStressTest.csproj", "{C04C41AA-89D1-4C22-8BA3-4BD1FE8650E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorStressTest", "..\InventorStressTest\InventorStressTest.csproj", "{DD4EB3B3-1C80-4471-9B55-88259D1E39E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C9C4E9-B3BB-4161-9FC5-8FEC069F541E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C9C4E9-B3BB-4161-9FC5-8FEC069F541E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C9C4E9-B3BB-4161-9FC5-8FEC069F541E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C9C4E9-B3BB-4161-9FC5-8FEC069F541E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D428B07-0771-4C15-9A3E-92338076DA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D428B07-0771-4C15-9A3E-92338076DA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D428B07-0771-4C15-9A3E-92338076DA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D428B07-0771-4C15-9A3E-92338076DA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CEC017-8BE1-4703-856B-8529B6FB0F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CEC017-8BE1-4703-856B-8529B6FB0F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CEC017-8BE1-4703-856B-8529B6FB0F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CEC017-8BE1-4703-856B-8529B6FB0F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C10FE4-8D83-4EDF-A94A-A211D5AB5392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C10FE4-8D83-4EDF-A94A-A211D5AB5392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C10FE4-8D83-4EDF-A94A-A211D5AB5392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C10FE4-8D83-4EDF-A94A-A211D5AB5392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13A104F-A194-4BEF-B35C-C4BCBA69C813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13A104F-A194-4BEF-B35C-C4BCBA69C813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13A104F-A194-4BEF-B35C-C4BCBA69C813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13A104F-A194-4BEF-B35C-C4BCBA69C813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FD0B69-88BC-481C-A05D-5D16DE455E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FD0B69-88BC-481C-A05D-5D16DE455E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FD0B69-88BC-481C-A05D-5D16DE455E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FD0B69-88BC-481C-A05D-5D16DE455E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C433024-DD81-479B-8694-6B946FA0E0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C433024-DD81-479B-8694-6B946FA0E0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C433024-DD81-479B-8694-6B946FA0E0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C433024-DD81-479B-8694-6B946FA0E0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7379DF83-09A3-46AF-B17E-3FDAC6ABF566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7379DF83-09A3-46AF-B17E-3FDAC6ABF566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7379DF83-09A3-46AF-B17E-3FDAC6ABF566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7379DF83-09A3-46AF-B17E-3FDAC6ABF566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03D1DF0-961A-4FE7-A175-304B4C02D182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03D1DF0-961A-4FE7-A175-304B4C02D182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03D1DF0-961A-4FE7-A175-304B4C02D182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03D1DF0-961A-4FE7-A175-304B4C02D182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04C41AA-89D1-4C22-8BA3-4BD1FE8650E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04C41AA-89D1-4C22-8BA3-4BD1FE8650E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04C41AA-89D1-4C22-8BA3-4BD1FE8650E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04C41AA-89D1-4C22-8BA3-4BD1FE8650E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4EB3B3-1C80-4471-9B55-88259D1E39E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4EB3B3-1C80-4471-9B55-88259D1E39E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4EB3B3-1C80-4471-9B55-88259D1E39E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4EB3B3-1C80-4471-9B55-88259D1E39E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02C10FE4-8D83-4EDF-A94A-A211D5AB5392} = {28AB09EA-D159-45C2-ABA3-B48632A6A155}
+		{7379DF83-09A3-46AF-B17E-3FDAC6ABF566} = {28AB09EA-D159-45C2-ABA3-B48632A6A155}
+		{C03D1DF0-961A-4FE7-A175-304B4C02D182} = {28AB09EA-D159-45C2-ABA3-B48632A6A155}
+		{C04C41AA-89D1-4C22-8BA3-4BD1FE8650E7} = {28AB09EA-D159-45C2-ABA3-B48632A6A155}
+		{DD4EB3B3-1C80-4471-9B55-88259D1E39E4} = {28AB09EA-D159-45C2-ABA3-B48632A6A155}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EFA1DC9-0DC1-4859-AE17-55335BDBC136}
+	EndGlobalSection
+EndGlobal
